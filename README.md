@@ -19,9 +19,7 @@ The **Phishing Detection Solution** is an AI-powered tool designed to identify p
 - Text messages 📜
 
 The solution can be implemented as:
-- A **desktop/mobile application** 🖥️📱
-- A **web browser plugin** 🔌
-
+- A **desktop application** 🖥️📱
 ---
 
 ## ⚡ Features
@@ -33,7 +31,6 @@ The solution can be implemented as:
 ---
 
 ## 🛠️ Technologies Used
-- **Python** 🐍 for backend intelligence  
 - **JavaScript** 🌐 for front-end interactivity  
 - **Machine Learning** 🤖 for detection algorithms  
 - **Chrome Extension API** 🚀 for browser integration  
