@@ -22,8 +22,7 @@ The solution is implemented as:
 - A **web application** 🖥️📱
 ---
 
-## ⚡ Features
-✅ AI-based phishing link detection  
+## ⚡ Features 
 ✅ Source identification for attacks  
 ✅ Real-time alerts and notifications  
 ✅ User-friendly interface for reports  
