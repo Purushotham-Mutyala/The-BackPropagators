@@ -36,7 +36,7 @@ The solution is implemented as:
 - **Chrome Extension API** 🚀 for browser integration  
 
 ---
-##THE Diagram of Implementation
+## THE Diagram of Implementation
 ![diag](https://github.com/user-attachments/assets/411c145d-9c3c-4234-be1d-cf1142c3b1fd)
 
 
