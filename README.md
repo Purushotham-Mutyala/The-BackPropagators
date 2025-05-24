@@ -43,8 +43,8 @@ The solution is implemented as:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Purushotham-Mutyala/The-BackPropagators
-   ---------------------------------
 
-   ## Future Implimentation plan
+
+ ## Future Implimentation plan
    <img width="1074" alt="diag1" src="https://github.com/user-attachments/assets/ed55d0a0-475f-4d3c-8be4-09074be6cec9" />
 
