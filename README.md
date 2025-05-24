@@ -40,4 +40,4 @@ The solution is implemented as:
 ## 📂 Installation & Usage
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/The-BackPropagators/Phishing-Detection.git
+   git clone https://github.com/Purushotham-Mutyala/The-BackPropagators
