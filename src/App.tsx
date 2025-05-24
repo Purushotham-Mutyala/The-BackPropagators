@@ -1,27 +1,39 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from './contexts/ThemeContext';
-import Layout from './components/layout/Layout';
+
+// Layouts
+import MainLayout from './layouts/MainLayout';
+
+// Pages
 import Dashboard from './pages/Dashboard';
-import Detection from './pages/Detection';
-import Resources from './pages/Resources';
-import Settings from './pages/Settings';
-import NotFound from './pages/NotFound';
+import ScanPage from './pages/ScanPage';
+import HistoryPage from './pages/HistoryPage';
+import EducationPage from './pages/EducationPage';
+import SettingsPage from './pages/SettingsPage';
+
+// Context providers
+import { ThemeProvider } from './contexts/ThemeContext';
+import { AlertProvider } from './contexts/AlertContext';
+import { ScanProvider } from './contexts/ScanContext';
 
 function App() {
   return (
     <ThemeProvider>
-      <Router>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/detection" element={<Detection />} />
-            <Route path="/resources" element={<Resources />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Layout>
-      </Router>
+      <AlertProvider>
+        <ScanProvider>
+          <Router>
+            <Routes>
+              <Route path="/" element={<MainLayout />}>
+                <Route index element={<Dashboard />} />
+                <Route path="scan" element={<ScanPage />} />
+                <Route path="history" element={<HistoryPage />} />
+                <Route path="education" element={<EducationPage />} />
+                <Route path="settings" element={<SettingsPage />} />
+              </Route>
+            </Routes>
+          </Router>
+        </ScanProvider>
+      </AlertProvider>
     </ThemeProvider>
   );
 }
