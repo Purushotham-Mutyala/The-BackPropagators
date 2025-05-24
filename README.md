@@ -18,8 +18,8 @@ The **Phishing Detection Solution** is an AI-powered tool designed to identify p
 - Instant messenger apps 💬
 - Text messages 📜
 
-The solution can be implemented as:
-- A **desktop application** 🖥️📱
+The solution is implemented as:
+- A **web application** 🖥️📱
 ---
 
 ## ⚡ Features
