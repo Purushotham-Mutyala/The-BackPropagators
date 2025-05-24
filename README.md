@@ -45,7 +45,53 @@ The solution is implemented as:
    git clone https://github.com/Purushotham-Mutyala/The-BackPropagators
 
 
- ## Future Implimentation plan
+
+# Setup Instructions
+
+## Prerequisites
+- npm
+
+
+## 1. Clone the repository
+
+```bash
+https://github.com/Purushotham-Mutyala/The-BackPropagators.git
+```
+## 2. Installation 
+
+```bash
+npm install
+```
+
+## 3. Running the Project
+```bash
+npm run dev
+```
+
+
+
+### Project Timeline
+- **Slot 1**:  Frontend development
+
+- **Slot 2**: supabase integration
+
+- **Slot 3**: Testing and deployment
+
+
+
+### Challenges Faced
+
+- Training and integrating ML model within our web application
+
+### Future Enhancements
+
+- Develop our webapplication with API form Phish Tank or any other apis and make rule based and API based detection System
+
+
+
+---
+
+## Future Implimentation plan
 ![TBP_Future_plan](https://github.com/user-attachments/assets/64f156ca-7094-4858-a0fb-cecb92e94154)
 
 
