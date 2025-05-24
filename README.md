@@ -46,5 +46,6 @@ The solution is implemented as:
 
 
  ## Future Implimentation plan
-   <img width="1074" alt="diag1" src="https://github.com/user-attachments/assets/ed55d0a0-475f-4d3c-8be4-09074be6cec9" />
+![TBP_Future_plan](https://github.com/user-attachments/assets/64f156ca-7094-4858-a0fb-cecb92e94154)
+
 
